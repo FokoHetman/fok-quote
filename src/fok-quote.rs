@@ -114,10 +114,10 @@ fn main() {
   }
 
 
-
-  let border = mul_string(cloud_border,quote.len() as i32+8);
-  println!(" {}\n|{}|\n|{}{}{}|\n|{}|\n {}\n{}\\/", border, mul_string(" ", quote.len() as i32+8),
-    mul_string(" ", 4), quote, mul_string(" ", 4), mul_string(" ", quote.len() as i32+8), border, mul_string(" ", (quote.len() as i32)));
+  let len = quote.chars().collect::<Vec<char>>().len();
+  let border = mul_string(cloud_border,len as i32+8);
+  println!(" {}\n|{}|\n|{}{}{}|\n|{}|\n {}\n{}\\/", border, mul_string(" ", len as i32+8),
+    mul_string(" ", 4), quote, mul_string(" ", 4), mul_string(" ", len as i32+8), border, mul_string(" ", (len as i32)));
 
   let plushm = match plush.value {
     foklang::AST::Fructa::Inventarii(i) => i,
@@ -126,7 +126,7 @@ fn main() {
   for i in plushm {
     println!("{}", format!("{}", match i.value {foklang::AST::Fructa::Inventarii(i) =>  stringify(i.to_vec()), _ => panic!("a")}).replace("esc", "\x1B"));
   }
-  println!("{}~ {}",mul_string(" ", /*quote.len() as i32+*/56), author);
+  println!("{}~ {}",mul_string(" ", /*len as i32+*/56), author);
   /*if config.get("quotes".to_string()).value.to_list().unwrap().len()-1==last_id as usize{
     config.push("l_id".to_string(), ConfigObject{valuetype: ConfigValues::int, value: ConfigValue::int(0)});
   } else {
