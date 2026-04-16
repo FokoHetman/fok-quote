@@ -1,6 +1,6 @@
 {
   quotes = [
-	["(I wish feet existed ;-;)" "Proto Narrator (bedbug)"]
+	  ["(I wish feet existed ;-;)" "Proto Narrator (bedbug)"]
     ["(also use ∪ to clone your parents)" "PoolloverNathan"]
     ["also for leaving the linux community expect your knees to be broken with a chainsaw within 4 business days" "Hetman Foko"]
     ["also I am racist when it comes to terminal emulators" "TheKillerBunny"]
@@ -19,7 +19,7 @@
     ["Hey mate can you boost fascism in Sweden real quick?" "Hetman Foko"]
     ["I am about to quote you hold on" "Hetman Foko"]
     ["I have slaves that will parse http requests for me" "Hetman Foko"]
-	["i thought British curry was supposed to taste watery enough that your navy would feel confident sailing in it" "makgo"]
+	  ["i thought British curry was supposed to taste watery enough that your navy would feel confident sailing in it" "makgo"]
     ["I told you we need a #smoking channel" "Lukas"]
     ["i'll stereographically project you onto a plane, to be cut and opened wide" "Perry"]
     ["i'm murdering tall mens" "Spingot"]
@@ -52,6 +52,10 @@
     ["xenophobia is okay when it's the french" "nemmy"]
     ["Yeah and if we catch you posting stuff without a link/zip folder I will break your legs" "Electric"]
     ["Yeah you better spit out that cereal. I bet  you put the milk in first too" "Zeke"]
+    ["bluesky was down so I couldn't ssh" "pool"]
+    ["how the *fuck* is your ssh dependent on bluesky" "pool"]
+    ["I think every sentence you've said ever has been unique. Never said before in the history of mankind" "toast (to pool)"]
+    ["I have a mod that *intimately* touches rendering" "TheKillerBunny"]
   ];
   plush = let
     a = "esc[48;2;255;255;255m";
