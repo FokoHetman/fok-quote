@@ -56,6 +56,7 @@
     ["how the *fuck* is your ssh dependent on bluesky" "pool"]
     ["I think every sentence you've said ever has been unique. Never said before in the history of mankind" "toast (to pool)"]
     ["I have a mod that *intimately* touches rendering" "TheKillerBunny"]
+    ["Fok me sideways" "vimjoyer"]
   ];
   plush = let
     a = "esc[48;2;255;255;255m";
