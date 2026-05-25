@@ -57,6 +57,7 @@
     ["I think every sentence you've said ever has been unique. Never said before in the history of mankind" "toast (to pool)"]
     ["I have a mod that *intimately* touches rendering" "TheKillerBunny"]
     ["Fok me sideways" "vimjoyer"]
+    ["it should be legal to ignore invoices you don't understand" "e™"]
   ];
   plush = let
     a = "esc[48;2;255;255;255m";
