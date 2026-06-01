@@ -58,6 +58,7 @@
     ["I have a mod that *intimately* touches rendering" "TheKillerBunny"]
     ["Fok me sideways" "vimjoyer"]
     ["it should be legal to ignore invoices you don't understand" "e™"]
+    ["We live in a world." "PewDiePie"]
   ];
   plush = let
     a = "esc[48;2;255;255;255m";
